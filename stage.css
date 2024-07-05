@@ -1,0 +1,39 @@
+body {
+    background-color: BurlyWood;
+    font-family: Monospace;
+    color: black;
+}
+.text0{
+    font-family: Courier;
+    font-size: 30px;
+}
+.text1{
+    color: DarkGreen;
+    font-size: 20px;
+}
+.text3{
+    font-family: Courier;
+    color: DarkGreen;
+    fon-size: 12px;
+}
+/* Media Queries for Tablet and Desktop */
+@media screen and (min-width: 640px) {
+    .linksContainer{
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .container{
+        width: 90%;
+    }
+    
+    .imageHolder{
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container{
+        width: 85%;
+    }
